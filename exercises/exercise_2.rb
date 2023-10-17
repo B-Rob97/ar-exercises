@@ -14,4 +14,4 @@ puts @store1.name
 puts @store2.name
 
 @store1.update(name: "Calgary")
-puts @store1.name
+puts "Store 3 renamed to #{@store1.name}"
