@@ -5,6 +5,7 @@ puts "----------"
 
 puts "Creating stores :)"
 
+# Gets renamed to Calgary
 burnaby = Store.create(
   name: "Burnaby",
   annual_revenue: 300000,
@@ -18,7 +19,7 @@ richmond = Store.create(
   mens_apparel: false,
   womens_apparel: true
 )
-
+# Gets Deleted
 gastown = Store.create(
   name: "Gastown",
   annual_revenue: 190000,
